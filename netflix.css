@@ -1,0 +1,608 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
+ #bgimg
+{
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(./images/netflix\ bak.jpg);
+    background-size: 100%;
+    width: 100%;
+    
+}
+#bgimg > nav 
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#left > img
+{
+    /* width: 60%; */
+    
+   margin-left: 11rem;
+   margin-top: 1.5rem;
+   width: 10rem;
+   
+}
+ #right > button
+{
+   width: 7rem;
+   height: 37px;
+   margin-left: -10rem;
+   margin-right: 11rem;
+   margin-top: 1.5rem;
+}
+#right > #engbutton > select
+{
+    display: block;
+}
+#right > #engbutton > select
+{
+    padding: 5px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: none;
+    color: black;
+    font-size: 0.8rem;
+}
+ #right > #Signbutton
+{
+    width: 5rem;
+    background-color: red;
+    color: white;
+    height: 2.3rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: none;
+}
+  #right > #engbutton
+{
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid whitesmoke;
+}
+#right >button > option
+{
+    background-color: black;
+    color: black;
+}
+ #right > #engbutton > img
+{
+    height: 8px;
+    padding-left: 15px;
+}
+#bgimg > #hader > menu
+{
+    padding-top: 10rem;
+   text-align: center;
+   color: white;
+}
+ #bgimg > #hader > menu > h1
+{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+ #bgimg > #hader > menu > p
+{
+    font-size: 1.5rem;
+    /* margin-bottom: 1.5rem; */
+}
+#bgimg > #hader > menu > #haderpara
+{
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+#bgimg > #hader > menu > input
+{
+    width: 24rem;
+    height: 3.3rem;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-right: 4px;
+    background-color: transparent ;
+}
+ #bgimg > #hader > menu > input::placeholder
+{
+    color: white;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+ #bgimg > #hader > menu > button
+{
+    width: 13rem;
+    height: 3.3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;  
+    margin-bottom: 12rem;
+}
+#hr1
+{
+    height: 0.5rem;
+    background-color: gray;
+    border: none;
+    margin-top: -1rem;
+}
+#TV 
+{
+   /* background-color: black; */
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#enjoy
+{
+ /* background-color: black; */
+ width: 48%;
+ color: white;
+}
+#enjoy > h2
+{
+    font-size: 3rem;
+}
+#enjoy > p{
+    font-size: 2rem;
+}
+#video
+{
+   /* background-color: black; */
+   width: 48%;
+   position: relative;
+}
+#video > img{
+    width: 100%;
+   
+}
+    #video > video
+    {
+        position: absolute;
+        left: 4.5rem;
+        top: 20%;
+        width: 74%;
+        
+    }
+#hr2{
+    height: 0.5rem;
+    background-color: gray;
+    border: none;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+#downlod
+{
+    width: 80%;
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: black;
+}
+#downlod > #leftimg
+{
+  width: 35%;
+  background-color: black;
+  background-size: 20%;
+  margin-left: 9.5rem; 
+  margin-bottom: 3rem  ;
+  
+}
+#leftimg >  button > #phonedown > img
+{
+    padding-top: 23px ;
+}
+#downlod > #rightdownlod
+{
+    background-color: black;
+    width: 50%;
+    margin: 0rem -6rem 0rem 10rem;
+}
+#downlod > #rightdownlod >h1
+{
+    font-size: 3.5rem;
+    margin-left: 0rem;
+    
+}
+#downlod > #rightdownlod >h3{
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    margin-top: -1rem;
+}
+#downlod > #leftimg > button
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 21rem;
+    height: 6rem;
+    border-radius: 10px;
+    position: absolute;
+    margin: -8rem 0rem 0rem 9.5rem;
+    background-color: black;
+}
+#downlod > #leftimg > button > div > img
+{
+    width: 65%;
+    margin-right: 2rem;
+    
+}
+#downlod > #leftimg > button > #haderstronger >h3
+{
+    margin-right: 1rem;
+    margin-bottom: -1rem;
+    margin-top: 2rem;
+    width: 8rem;
+    color: white;
+}
+#downlod > #leftimg > button > #haderstronger >h5{
+    margin-right: 2rem;
+    color: white;
+}
+
+#hr3
+{
+    height: 0.5rem;
+    background-color: gray;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border: none;
+    
+}
+#hr4
+{
+    height: 0.5rem;
+    background-color: gray;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border: none;
+}
+
+#hr5
+{
+    height: 0.5rem;
+    background-color: gray;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border: none;
+}
+#hr6
+{
+   height: 0.5rem;
+   background-color: gray;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   border: none;
+}
+
+/* -------------------- Watch----------------- */
+
+
+#watch
+{
+    display: flex;
+    width: 80%;
+    color: white;
+    margin: auto;
+}
+#watch > #leftwatch
+{
+    width: 38%;
+    margin-left:  2.1rem;
+}
+#watch > #leftwatch > h1
+{
+   columns: white;
+   font-size: 3.5rem;
+   margin-left: 0rem;
+}
+#watch > #leftwatch > h3
+{
+    color: white;
+    font-size: 1.5rem;
+}
+#watch > #watchimg
+{
+    width: 38%;
+}
+#watch > #watchimg >img
+{
+  margin-left: 4rem;
+  z-index: 1;
+}
+#watch > #watchimg >video
+{
+    width: 83%;
+    margin-top: -38rem;
+    margin-left: 11.8rem;
+    margin-bottom: 13.6rem;
+    z-index: 3;
+}
+
+
+#children
+{
+    display:flex;
+    width: 80%;
+    margin: auto;
+}
+#children > #leftchildren >img
+{
+    margin-left: 3rem;
+}
+#children > #rightprofile
+{
+    margin-left: -2rem;
+}
+#children > #rightprofile >h1
+{
+    color: white;
+    font-size: 3.4rem;
+    margin-top: 9rem;
+    
+}
+#children > #rightprofile >h3
+{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: -1.5rem;
+}
+
+
+/* -------------------footer section---------------- */
+
+
+footer > #footer
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+footer > #footer >ul 
+{   
+    margin-top: 0rem;
+    margin-bottom: -1rem;
+    margin-right: 9rem;
+    list-style-type: none;
+    padding: 5rem 0rem;
+}
+footer > #footer >ul > li
+{
+    margin-bottom: 1.5rem;
+}
+footer > #footer >ul > li > a
+{
+    /* text-decoration: none; */
+   padding-bottom: 5rem;
+    color: white;
+}
+#FAQ
+{
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.FAQ-cont
+{
+    margin-top: 8px;
+}
+#FAQ > h2
+{
+    text-align: center;
+    font-size: 3rem;
+}
+#FAQ > .FAQ-cont > .que
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 0rem 1rem;
+    /* font-size: 1.5rem; */
+}
+.que > h3
+{
+    font-size: 1.6rem;
+}
+.ans
+{
+    background-color: #2d2d2d;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-top: 2px;
+    position: relative;
+    display: none;
+}.FAQ-cont:hover .ans
+{
+    display: block;
+}
+
+.ans > p
+{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+
+
+
+@media(max-width:600px)
+{
+    #bgimg
+{
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(./images/netflix\ bak.jpg);
+    background-size: 100%;
+    width: 290%;
+    
+}
+    #bgimg > #hader > menu {
+        padding-top: 0rem;
+        text-align: center;
+    }
+    #bgimg > nav 
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#left > img 
+{
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    width: 12rem;
+}
+#right > #Signbutton {
+    width: 10rem;
+    background-color: red;
+    color: white;
+    height: 4.5rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+#right > button {
+    width: 9rem;
+    height: 80px;
+    margin-left: -3rem;
+    margin-right: 4rem;
+    margin-top: 1.5rem;
+}
+#right > #engbutton > select {
+    padding: 20px;
+}
+#bgimg > #hader > menu > h1
+{
+    font-size: 7.5rem;
+    margin-bottom: 6.5rem;
+}
+#bgimg > #hader > menu > p
+{
+    font-size: 3.5rem;
+    
+}
+#bgimg > #hader > menu > #haderpara {
+    font-size: 3.3rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2.8rem;
+}
+#bgimg > #hader > menu > input 
+{
+    width: 60rem;
+    height: 5.3rem;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-right: 4px;
+    background-color: gray;
+}
+#bgimg > #hader > menu > input::placeholder
+{
+    color: white;
+    padding-left: 15px;
+    font-size: 2rem;
+}
+#bgimg > #hader > menu > button {
+    width: 20rem;
+    height: 6.3rem;
+    border-radius: 5px;
+    
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    
+    margin-bottom: 5rem;
+}
+
+    #TV 
+{
+   /* background-color: black; */
+   width: 287%;
+   display: block;
+   text-align: center;
+   /* margin-left: 10.5rem; */
+   
+}
+#enjoy
+{
+ /* background-color: black; */
+ width: 70%;
+ margin: auto;
+ /* flex-direction: column; */
+ 
+}
+#enjoy >p 
+{
+    font-size: 3rem;
+    
+    /* margin-left: -8rem; */
+}
+#enjoy >h2
+{
+    margin-top: 10rem;
+    font-size: 5.5rem;
+}
+#video
+{
+    justify-content: center;
+}
+#video > img {
+    width: 180%;
+    margin-left: 5rem;
+    position: relative;
+}
+#video > video
+{
+    position:absolute;
+    left: 13.6rem;
+    top: 21%;
+    width: 131%;
+    
+}
+#downlod {
+    width: 286%;
+    align-items: center;
+}
+#downlod > #leftimg
+{
+  width: 35%;
+  background-color: black;
+  background-size: 20%;
+  margin-left: 9.5rem; 
+  margin-bottom: 3rem  ;
+  
+}#downlod > #leftimg > button
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 21rem;
+    height: 6rem;
+    border-radius: 10px;
+    position: absolute;
+    margin: -8rem 0rem 0rem 9.5rem;
+    background-color: black;
+}
+#downlod > #rightdownlod >h1
+{
+    font-size: 3.5rem;
+    margin-left: 3rem;
+    
+}
+#downlod > #rightdownlod >h3{
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    margin-top: -1rem;
+}
+#watch
+{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+}
